@@ -1,0 +1,7 @@
+mutation  Login($details:LoginInput!){
+  login(details:$details) {
+    mobile_num
+    last_name
+    username
+  }
+}

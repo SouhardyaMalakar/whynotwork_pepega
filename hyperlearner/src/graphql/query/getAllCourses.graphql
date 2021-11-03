@@ -1,0 +1,10 @@
+query AllCourses {
+  getAllCourses {
+    id
+    name
+    subject
+    author
+    parts
+    body
+  }
+}

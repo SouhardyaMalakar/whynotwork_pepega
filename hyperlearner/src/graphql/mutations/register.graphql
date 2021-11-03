@@ -1,0 +1,8 @@
+mutation CreateStudentMutation($details: StudentDetails!) {
+  createStudent(details: $details) {
+    mobile_num
+    first_name
+    last_name
+    username
+  }
+}

@@ -1,0 +1,7 @@
+query Me {
+  me {
+    mobile_num
+    first_name
+    last_name
+  }
+}
